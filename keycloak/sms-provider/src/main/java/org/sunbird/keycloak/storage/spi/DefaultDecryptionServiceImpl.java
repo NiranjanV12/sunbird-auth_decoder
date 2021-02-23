@@ -10,6 +10,7 @@ import javax.crypto.Cipher;
 import javax.crypto.spec.SecretKeySpec;
 import org.apache.commons.lang3.StringUtils;
 import org.jboss.logging.Logger;
+import java.util.Base64;
 
 public class DefaultDecryptionServiceImpl implements DecryptionService {
   private static Logger logger = Logger.getLogger(DefaultDecryptionServiceImpl.class);
