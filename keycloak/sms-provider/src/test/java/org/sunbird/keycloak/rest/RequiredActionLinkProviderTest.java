@@ -39,7 +39,7 @@ import org.sunbird.keycloak.utils.Constants;
     KeycloakContext.class, KeycloakModelUtils.class, RealmModel.class, RedirectUtils.class,
     AppAuthManager.class, RequiredActionLinkProvider.class, UriInfo.class, AccessToken.class,
     Access.class, AuthResult.class})
-@PowerMockIgnore({"javax.management.*", "javax.net.ssl.*", "javax.security.*"})
+@PowerMockIgnore({"javax.management.*", "javax.net.ssl.*", "javax.security.*", "jdk.internal.reflect.*"})
 //@Ignore
 public class RequiredActionLinkProviderTest {
 
